@@ -1,0 +1,89 @@
+body{
+  text-align: center;
+  font-family: Montserrat;
+}
+/* Section Title */
+.top{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    height: 780px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.title{
+  margin: 0px 60px 0px 60px;
+}
+.navbar-title{
+  font-size: 1.5em;
+}
+.caption{
+  font-size: 2em;
+  color: white;
+  margin: 0px 0px 0px 70px;
+}
+#brand-title{
+  font-size: 3.5em;
+}
+
+/* Section Details */
+#details{
+  background-color: #3A3845;
+  text-align: center;
+  height: 450px;
+  color: white;
+}
+.carousel-item{
+  margin: 40px 0px;
+}
+.testimonial-image{
+  height: 200px;
+  width: 15%;
+  margin-bottom: 6%;
+}
+.testimonial-header{
+  font-size: 3em;
+  font-weight: bolder;
+  font-family: Montserrat;
+}
+.details-text{
+  font-size:1.5em;
+  margin: 50px 0px;
+}
+#pricing{
+  padding: 50px;
+  text-align: center;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#footer{
+  background-color: #3A3845;
+  color: white;
+  height: 200px;
+  text-align: center;
+}
+
+.footer-icon{
+  padding: 5% 1% 0% 1%;
+}
+.footer-text{
+  padding-top: 30px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width:800px)
+{
+  .top
+  {
+    background-image: url("3.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+}
